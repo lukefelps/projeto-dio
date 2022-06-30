@@ -32,6 +32,7 @@
 
 # Flex Flow
 
-- É um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é muito comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap, que é nowra
+- É um atalho para as propriedades flex-direction e flex-wrap. Porém seu uso não é muito comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap, que é nowrap.
+- 
 
 ​							
