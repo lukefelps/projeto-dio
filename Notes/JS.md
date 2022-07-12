@@ -183,6 +183,42 @@
   - Em vez da propriedade lenght, consulta-se o numero de registro pela propriedade size;
   - Não possui os métodos, map, filter, reduce etc.
 
+# Método Map
+
+- Cria um novo array
+- Não modifica o array original
+- Realiza as operações em ordem
+- Sintaxe (array.map(callback, thiArg))
+- callback (item, index, array)
+- Callback: função a ser executada em cada elemento
+- thiArg(opcional): valor de "this" dentro da função callback
+- map vs forEach (valor de retorno, considere se o array auxiliar será necessário)
+- Reduce (executa uma função em todos os elementos do array, retornando um valor único)
+- array.reduce (callbackFn, initialValue)
+
+# Tratamento de erros
+
+- Error do ECMAScript
+  - Erros que ocorrem em tempo de execução
+  - Composto por: Mensagem, nome, linha, call Stack
+- DOMException
+  - Erros relacionados ao Documento Object Model
+- throw e return
+- try/catch
+- Finally 
+
+#  Javascript Assíncrono
+
+- Promises 
+  - é um objeto de processamente assincrono, inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+  - 3 estados ( pending, fulfilled, rejected)
+- Async/await
+  - Funções assincronas precisam dessas duas palavras chaves
+- APIs (Application Programming Interface)
+  - Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end, você consegue acessá-la por meio de URLs.
+  - JSON: JavaScript Object Notation
+- fetch - retorna uma promise, lembrar de usar await
+
 
 
 
